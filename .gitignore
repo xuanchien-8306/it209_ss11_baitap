@@ -26,12 +26,15 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
 ### VS Code ###
 .vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Biến môi trường - KHÔNG COMMIT .env chứa mật khẩu thật ###
+.env
+
+### Logs ###
+*.log
+logs/
